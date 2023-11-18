@@ -1,0 +1,113 @@
+/* General Components */
+section {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+}
+.container {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(1, 75%);
+  gap: 40px;
+  background: white;
+  padding-bottom: 50px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 18px auto;
+  display: grid;
+}
+.container-circles {
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px;
+    display: grid;
+    justify-content: center;
+}
+.single {
+    grid-template-columns: auto;
+}
+.container > h1 {
+  margin-top: 55px;
+  justify-content: start;
+}
+.container > .circle:nth-child(2), .container:nth-child(3){
+  grid-column: 1;
+  grid-row: auto;
+  justify-content: center;
+  gap: 50px
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #005a86;
+    justify-content: center;
+    display: grid;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+}
+/* Heaader Section */
+.header{
+    text-align: center;
+}
+ /* Colors Section */
+.hex-val {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+/* .hex-val:hover, .circle:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease-in;
+} */
+.circle:nth-child(1) {
+    background-color: #00A9FF;
+}
+.circle:nth-child(2) {
+    background-color: #89CFF3;
+}
+.circle:nth-child(3) {
+    background-color: #CDF5FD;
+}
+/* Fonts Section */
+.font-body > h1 {
+    color: black;
+}
+.sans-serif-font{
+font-family: 'Mulish', sans-serif;
+margin-top: 50px;
+}
+.serif-font{
+font-family: 'Merriweather', serif;
+}
+/* Usage Styles */
+/* headings */
+/* Plain */
+.head-plain{
+    font-style: normal;
+
+}
+/* Bold */
+.head-bold {
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+}
+/* Italic */
+.head-italic {
+   color: rgb(101, 101, 101); 
+   font-style: italic;
+}   
+
+/* body Text */
+/* plain */
+.body-plain{
+    color: black;
+}
+/* italic */
+.body-italic {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/*  */

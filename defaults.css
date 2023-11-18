@@ -1,0 +1,54 @@
+/* Pallette Used: https://colorhunt.co/palette/00a9ff89cff3a0e9ffcdf5fd */
+*{
+    margin: 0;
+}
+body{
+    background: #89CFF3;
+    font-family: 'Mulish', sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    letter-spacing:.15em;
+    color: rgb(37, 37, 37);
+}
+.box{
+    height: 280px;
+    background-color: #CDF5FD;
+    border: solid #A0E9FF 1px;
+    
+}
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 150px; */
+}
+/* || GENERAL STYLES */  
+  h1,
+  h2{
+    color: #00A9FF;
+    font-size: 32px;
+    font-family: 'Merriweather', san-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 5px;;
+
+  }
+  h3, h4{
+    color: #89CFF3
+  }
+  p {
+    font-size: 14px;
+  }
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  header, footer{
+    display: grid;
+  }
+  section {
+    display: grid;
+
+  }
+ 
