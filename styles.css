@@ -46,6 +46,9 @@ section {
 /* Heaader Section */
 .header{
     text-align: center;
+    background: linear-gradient(217deg, #006affcc, rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, #A0E9FF, rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, #CDF5FD, rgba(0,0,255,0) 70.71%);
 }
  /* Colors Section */
 .hex-val {
